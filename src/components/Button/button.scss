@@ -1,0 +1,37 @@
+.primary-button {
+  border: 5px double black;
+  border-radius: 5px;
+  min-width: 5rem;
+  min-height: 2rem;
+  cursor: pointer;
+}
+
+.secondary-button {
+  border: 0.1rem solid black;
+  border-radius: 5px;
+  min-width: 8vw;
+  min-height: 2rem;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background-color: #342f4b;
+  color: white;
+}
+
+
+.bridgeButtonRight {
+  position: absolute;
+  top :25px;
+  right: 10px;
+  margin-right: 20px;
+  }
+
+
+.bridgeButtonLeft {
+  position: absolute;
+  top :25px;
+  left: 25px;
+  margin-right: 20px;
+  }
+
